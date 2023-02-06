@@ -1,0 +1,75 @@
+primeiro_nome = 'vanderlei'
+ultimo_nome = 'Kaio'
+print(primeiro_nome,ultimo_nome)
+
+print(f"o nome do cliente é {primeiro_nome.title()} {ultimo_nome.title()}...")
+
+produto =('arroz', 'alimento')
+print(produto)
+
+produtos = ['pão', 'manteiga', 'sal']
+print(produtos)
+
+produtos.append('queijo')
+['pão', 'manteiga', 'sal', 'queijo', 'queijo', 'queijo']
+
+item_removido = produtos.pop()
+item_removido
+'queijo'
+['pão', 'manteiga', 'sal', 'queijo']
+
+carro = {
+    'nome' : 'carrola',
+    'ano' : 2015,
+    'motor' : 2.0
+}
+
+carro
+{'ano': 2015, 'motor': 2.0, 'nome': 'carrola'}
+print(carro['motor'])
+2.0
+
+casa = ('rua Phobus, 181', 1985)
+print(casa[0])
+rua Phobus, 181
+
+print(casa[1])
+1985
+
+carros = ['fiesta', 'corrola', 'civic', 'gol', 'palio', 'fusion']
+carros
+['fiesta', 'corrola', 'civic', 'gol', 'palio', 'fusion']
+carros[-1]
+
+
+carros.append('sorento')
+carros
+['fiesta', 'corrola', 'civic', 'gol', 'palio', 'fusion', 'sorento', 'sorento']
+carros.pop()
+sorento
+
+carros
+['fiesta', 'corrola', 'civic', 'gol', 'palio', 'fusion']
+carros.append('fiesta')
+carros
+['fiesta', 'corrola', 'civic', 'gol', 'palio', 'fusion', 'fiesta', 'fiesta']
+
+cantor = {
+    'nome': 'Roberto Carlos',
+    'ano_nascimento' : 1950,
+    'cidade' : 'Cachoeira do Itapemirim'
+}
+cantor['nome'].lower()
+roberto carlos
+
+cantor['estilo'] = 'MPB'
+cantor
+
+{'ano_nascimento': 1950,
+ 'cidade': 'Cachoeira do Itapemirim',
+ 'estilo': 'MPB',
+ 'nome': 'Roberto Carlos'}
+ 
+ cantor['cidade'].pop()
+ 
+ 
